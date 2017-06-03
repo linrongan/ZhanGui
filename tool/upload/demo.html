@@ -1,0 +1,38 @@
+<!--
+图片上传
+-->
+<link rel="stylesheet" type="text/css" href="upload.css"/>
+<script type="text/javascript" src="./need/jquery.js"></script>
+<script type="text/javascript" src="upload.js"></script>
+<div id="upload"></div>
+<script type="text/javascript">
+    $(function(){
+        $('#upload').upload({
+            auto:true,  //自动上传
+            fileTypeExts:'*.jpg;*.png;*.exe',   //允许文件后缀
+            multi:true, //多文件上传
+            fileSizeLimit:9999, //文件最大
+            showUploadedPercent:true,//是否实时显示上传的百分比
+            showUploadedSize:true,  //显示上传文件的大小
+            removeTimeout:9999999,  //超时时间
+            uploader:'/tool/upload/upload.php',  //服务器地址
+            onUploadStart:function(){
+                //alert('开始上传');
+            },
+            onInit:function(){
+                //alert('初始化');
+            },
+            onUploadComplete:function(){
+                //alert('上传完成');
+            },
+            onDelete:function(file){
+                console.log('删除的文件：'+file);
+                console.log(file);
+            },
+            onUploadSuccess:function(file,res,response){
+                var result = $.parseJSON(res);
+            }
+
+        });
+    });
+</script>

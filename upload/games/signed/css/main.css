@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (max-width: 320px) {
+    body{font-size: 14px;}
+	.fzr024{font-size:12px}
+	.fzr032{font-size:18px}
+	
+}
+
+@media screen and (min-width: 321px) and (max-width: 413px) {
+
+    body{font-size: 16px;}
+	.fzr024{font-size:14px}
+	.fzr032{font-size:20px}
+
+}
+
+@media screen and (min-width: 414px) and (max-width: 639px) {
+
+    body{font-size:18px;}
+	.fzr024{font-size:16px}
+	.fzr032{font-size:22px}
+
+}
+
+@media screen and (min-width: 640px) {
+
+    body{font-size: 18px;}
+	.fzr024{font-size:20px}
+	.fzr032{font-size:24px}
+
+}
+
+
+
+
+*{font-family:"方正兰亭黑简体";}
+.header{width:100%; height:4rem; background:url(../images/dateHeightBgs.jpg) no-repeat; background-size:100% 100%; position:relative;}
+.Sign{width:2.4rem; height:2.4rem; background:rgba(255,255,255,0.5); border-radius:2.6rem; position:absolute; top:50%; left:50%; margin-left:-1.3rem; margin-top:-1.3rem;padding:.1rem; overflow:hidden;}
+.Sing_con{width:2.4rem; height:2.4rem; background:#ffffff; border-radius:2.4rem; overflow:hidden;}
+
+.singText{width:2.4rem; height:2.4rem; background:url(../images/signtext.png) center center no-repeat; background-size:1.6rem .8rem;}
+.asingText{width:2rem; height:1.6rem; text-align:center; padding:.4rem .2rem;}
+.asingText p{color:#ffa11e; height:.5rem; line-height:.5rem;}
+.asingText h1{color:#ffa11e; height:.58rem; line-height:.58rem; border-bottom:1px solid #ffa11e; font-size:.48rem;}
+
+.rule{width:1.6rem; height:.6rem; background:#ffa11e; display:block; position:absolute; right:0px; bottom:.2rem; line-height:.62rem; color:#FFF; padding:0 0 0 .2rem; border-radius:.1rem 0 0 .1rem;}
+.title{width:100%; height:.8rem; line-height:.8rem; text-align:center; color:#000; border-bottom:1px solid #e4e4e4;}
+.title .textstyle{color:#2e8589}
+
+
+
+
+.date_y_m{width:100%; height:.8rem; line-height:.8rem; color:#ffffff; text-align:center;}
+.date_d ul{width:100%; clear:both; display:-webkit-box; display:-moz-box;}
+.date_d ul li{width:14.285714%; height:.4rem; line-height:.4rem; text-align:center; -moz-box-flex:1; -webkit-box-flex:1; color:#ffffff;}
+
+
+.date_time{width:100%; position:relative; overflow:hidden;}
+.date_time:before{ content:''; width:100%; border-bottom:1px solid #e4e4e4; position:absolute; top:0px; left:0px;}
+.date_time:after{ content:''; width:100%; border-bottom:1px solid #e4e4e4; position:absolute; bottom:0px; left:0px;}
+.date_time_menu{width:100%; clear:both;}
+.date_time_menu li{width:14%; height:1.2rem;  border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4; float:left; text-align:center; }
+.date_time_menu li:nth-child(7n){border-right:none;}
+.date_time_menu li img{width:80%; display:block; margin:auto;}
+.date_time_menu li .moren{ background:#ffa11e; color:#FFF; width:80%; height:.32rem; line-height:.32rem; margin:.1rem auto 0; border-radius:.32rem; opacity:.4;}
+
+
+.date_time_menu .activity{background:#ffa11e;}
+.date_time_menu .activity .number{color:#FFF; font-weight:bold; font-size:.36rem;  height:.42rem; line-height:.42rem;}
+.date_time_menu .activity .judge{width:.38rem; height:.3rem; background:url(../images/gouto.png) center center no-repeat; margin:.1rem auto .2rem; background-size:100% 100%;}
+.date_time_menu .activity .integral{ background:#FFF; color:#ffa11e; width:80%; height:.3rem; line-height:.3rem; margin:.1rem auto 0;  border-radius:.3rem; }
+
+
+
+.date_time_menu .ISactivity{background:#FFF}
+.date_time_menu .ISactivity .number{color:#2e8589; height:.42rem; line-height:.42rem;}
+.date_time_menu .ISactivity .judge{width:.38rem; height:.3rem; background:url(../images/gou.png) center center no-repeat; margin:.1rem auto .2rem; background-size:100% 100%;}
+.date_time_menu .integral{ background:#ffa11e; color:#FFF; width:80%; height:.32rem; line-height:.32rem; margin:.1rem auto 0; border-radius:.32rem; }
+
+
+
+.date_time_menu .Noactivity{background:#FFF}
+
+.date_time_menu .Noactivity .number{color:#cbcbcb; height:.42rem; line-height:.42rem;}
+.date_time_menu .Noactivity .judge{width:.3rem; height:.3rem; background:url(../images/delete.png) center center no-repeat; margin:.1rem auto .2rem; background-size:100% 100%;}
+
+
+
+.adColumn{width:100%; height:auto; }
+.adColumn ul{width:100%; clear:both;}
+.adColumn ul li{width:100%; height:auto; margin-top:.1rem;}
+.adColumn ul li img{width:100%; display:block;}
+
+
+.adColumnTitle{padding:.2rem .4rem .2rem .2rem; background:url(../images/adColumnTitle.png) no-repeat; background-size:100% 100%; display:inline-block; text-align:center; color:#FFF; margin-top:.2rem;}
+
+
+
+
+
+
+
+
+
+
